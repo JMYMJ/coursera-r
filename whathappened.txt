@@ -1,0 +1,19 @@
+# creates empty gitignore file
+echo "" > .gitignore
+
+# create a branch called main and switch to it (checkout the branch)
+git checkout -b main
+
+# then I added these two things because these are my
+# personal settings that other users of my git repo do not need
+# .Rproj.user/
+# .Rhistory
+
+# add all files and folders of current directory to (local) git
+git add .
+
+# register github as remote for my git repo
+git remote add origin git@github.com:JMYMJ/coursera-r.git
+
+# push (upload) the latest main branch to github (origin)
+git push -u origin main

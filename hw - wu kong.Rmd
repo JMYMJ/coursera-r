@@ -1,7 +1,7 @@
 ---
-title: "My first R markdown 2.1 - bold"
-author: "Jenny Yang"
-date: "2024-08-12"
+title: "black monkey"
+author: "YMJ"
+date: "2024-08-20"
 output: pdf_document
 ---
 
@@ -23,35 +23,8 @@ summary(cars)
 
 You can also embed plots, for example:
 
-Jenny asks: what does "**embed plots**" mean?
-
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-```{r hello}
-print("Hello world again")
-```
-- I  
-- AM
-<!-- - TRYING -->
-- TO  
-- Make  
-- some  
-- bullets  
-
-- I - AM - TRYING - TO  
-- Make  - some  - bullets  
-
--Let -Me -Try -something -new
-
--what  
--about  
--this 
--why 
--not 
--showing 
-
-The instruction for bullet points is a bit confusing to me.
